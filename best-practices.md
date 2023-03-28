@@ -21,13 +21,13 @@
 
 Kan din kode ikke umiddelbart læses, er det tid for refaktorering.
 
-> _Any fool can write code that a computer can understand. Good programmers write code that humans can understand._
->
-> ― Martin Fowler
-
 ### Undgå kommentarer (for det meste)
 
 Har du brug for at skrive en kommentar, så overvej om det er fordi din kode er for kompliceret eller om du ikke har overholdt reglen om sigende navne til funktioner og variabler.
+
+> _Any fool can write code that a computer can understand. Good programmers write code that humans can understand._
+>
+> ― Martin Fowler
 
 ## Forstå hvad du skal kode inden du går i gang
 
@@ -89,10 +89,6 @@ Hver try/except skal have minimalt ansvar. Lad være med at pakke større kode-b
 ## Undgå globale variabler
 
 Globale variabler er forurening. Det er ikke tydeligt, hvor de kommer fra og hvad de indeholder. Variabler hører til i funktioner.
-
-> _I'm not a great programmer; I'm just a good programmer with great habits._
->
-> ― Kent Beck
 
 ## Følg kodestandarden
 
