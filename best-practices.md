@@ -59,9 +59,9 @@ def calculate_weather(rain: dict) -> Any:
 
 ```
 
-## I Python brug en modulopbygget struktur
+## Brug en modulopbygget struktur
 
-Alle filer i Python er også et "modul"!
+Udnyt at alle filer i Python også er et "modul".
 
 ```python
 import utilities
