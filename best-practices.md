@@ -2,6 +2,14 @@
 
 ## Skriv kode til mennesker ikke til maskiner! 🤖
 
+> _Any fool can write code that a computer can understand. Good programmers write code that humans can understand._
+>
+> ― Martin Fowler
+
+> _Programming is the art of telling another human being what one wants the computer to do._
+>
+> ― Donald Ervin Knuth
+
 **Giv funktioner og variabler sigende navne**
 
 - En funktion som transformerer: `transform_string_to_unicode`
@@ -9,7 +17,7 @@
 - En variabel som rummer video-navne: `video_names`
 - En funktion, som henter noget data: `get_entries_from_file`
 
-> ### _There are only two hard things in Computer Science: cache invalidation and naming things._
+> _There are only two hard things in Computer Science: cache invalidation and naming things._
 >
 > -- Phil Karlton
 
@@ -79,6 +87,10 @@ Hver try/except skal have minimalt ansvar. Lad være med at pakke større kode-b
 ## Undgå globale variabler
 
 Globale variabler er forurening. Det er ikke tydeligt, hvor de kommer fra og hvad de indeholder. Variabler hører til i funktioner.
+
+> _I'm not a great programmer; I'm just a good programmer with great habits._
+>
+> ― Kent Beck
 
 ## Følg kodestandarden
 
