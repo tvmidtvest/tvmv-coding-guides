@@ -1,6 +1,6 @@
 # Programmering, best practices
 
-### Skriv kode til mennesker ikke til maskiner!
+### Skriv kode til mennesker ikke til maskiner! 🤖
 
 **Giv funktioner og variabler sigende navne**
 
@@ -20,8 +20,12 @@ Har du brug for at skrive en kommentar, så overvej om det er fordi din kode er 
 Lav en prototype med funktionsnavne:
 
 ```python
-def transform_rss_to_xml(rss: str) -> Any:
+def transform_rss_to_xml(rss: str) -> str:
 	pass
+
+def then_do_this_thing(new_param: str) -> str:
+    pass
+
 ```
 
 ### Lær og tilpas
