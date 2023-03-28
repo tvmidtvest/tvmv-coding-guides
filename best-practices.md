@@ -2,15 +2,11 @@
 
 ## Skriv kode til mennesker ikke til maskiner! 🤖
 
-> _Any fool can write code that a computer can understand. Good programmers write code that humans can understand._
->
-> ― Martin Fowler
-
 > _Programming is the art of telling another human being what one wants the computer to do._
 >
 > ― Donald Ervin Knuth
 
-**Giv funktioner og variabler sigende navne**
+### Giv funktioner og variabler sigende navne
 
 - En funktion som transformerer: `transform_string_to_unicode`
 - En funktion som gemmer noget data: `save_entries_to_db`
@@ -21,10 +17,16 @@
 >
 > -- Phil Karlton
 
-**Strukturer din kode, så den er letlæselig**
+### Strukturer din kode, så den er letlæselig
+
 Kan din kode ikke umiddelbart læses, er det tid for refaktorering.
 
-**Undgå kommentarer (for det meste)**
+> _Any fool can write code that a computer can understand. Good programmers write code that humans can understand._
+>
+> ― Martin Fowler
+
+### Undgå kommentarer (for det meste)
+
 Har du brug for at skrive en kommentar, så overvej om det er fordi din kode er for kompliceret eller om du ikke har overholdt reglen om sigende navne til funktioner og variabler.
 
 ## Forstå hvad du skal kode inden du går i gang
