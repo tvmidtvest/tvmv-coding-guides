@@ -3,10 +3,11 @@
 ### Skriv kode til mennesker ikke til maskiner!
 
 **Giv funktioner og variabler sigende navne**
-En funktion som transformerer: `transform_string_to_unicode`
-En funktion som gemmer noget data: `save_entries_to_db`
-En variabel som rummer video-navne: `video_names`
-En funktion, som henter noget data: `get_entries_from_file`
+
+- En funktion som transformerer: `transform_string_to_unicode`
+- En funktion som gemmer noget data: `save_entries_to_db`
+- En variabel som rummer video-navne: `video_names`
+- En funktion, som henter noget data: `get_entries_from_file`
 
 **Strukturer din kode, så den er letlæselig**
 Kan din kode ikke umiddelbart læses, er det tid for refaktorering.
@@ -34,6 +35,21 @@ Tænk generisk og standardiseret. Lav kobling og høj samhørighed: Sørg for at
 ### Undgå nestede if-statements
 
 Brug fx Early Return-princippet i stedet eller split en test ud i en funktion.
+
+```python
+
+def calculate_weather(rain: dict) -> Any:
+
+    if rain['drizzle']:
+        return False
+
+    if rain['amount'] < 5:
+        return False
+
+    # Resten af koden herunder
+    return rain['type']
+
+```
 
 ### I Python brug en modulopbygget struktur
 
