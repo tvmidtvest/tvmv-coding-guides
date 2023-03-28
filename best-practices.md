@@ -35,7 +35,7 @@ Lav en prototype med funktionsnavne:
 
 ```python
 def transform_rss_to_xml(rss: str) -> str:
-	pass
+    pass
 
 def then_do_this_thing(new_param: str) -> str:
     pass
