@@ -74,7 +74,11 @@ Globale variabler er forurening. Det er ikke tydeligt, hvor de kommer fra og hva
 
 ### Følg kodestandarden
 
-Fx ved Python brug PEP8 - autopep8-modulet i VSCODE. Brug i det hele taget alle de hjælpeværktøjer du kan i VSCODE.
+Fx ved Python brug PEP8 - brug autopep8 i VSCODE. Brug i det hele taget alle de hjælpeværktøjer du kan i VSCODE.
+
+```bash
+$ pip install autopep8
+```
 
 ### Refaktorer løbende
 
@@ -93,6 +97,13 @@ Når vi deployer fra Git (`git pull`) så sikrer vi at det er den korrekte og se
 ### Kør og test lokalt
 
 Du skal kunne køre og teste din kode lokalt. Brug .env og config-filer til at tilpasse til dit lokale miljø.
+
+### Brug ALTID et virtuelt python-miljø
+
+```bash
+$ python -m venv .venv
+$ source .venv/bin/activate # MacOS
+```
 
 ### Brug .env-fil til lokale konstanter
 
