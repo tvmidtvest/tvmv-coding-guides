@@ -18,7 +18,7 @@ After=network-online.target
 Type=simple
 User=kalturadrop
 WorkingDirectory=[absolut sti til rod-mappen af servicen]
-ExecStart=[absolut sti til filen som skal eksekveres]
+ExecStart=[absolutte stier til python i .venv og til filen som skal eksekveres]
 
 [Install]
 WantedBy=multi-user.target
