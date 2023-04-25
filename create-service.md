@@ -16,7 +16,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-User=kalturadrop
+User=[den aktuelle bruger, du er logget ind med fx d-services]
 WorkingDirectory=[absolut sti til rod-mappen af servicen]
 ExecStart=[absolutte stier til python i .venv og til filen som skal eksekveres]
 
@@ -35,6 +35,23 @@ Enable servicen og start den:
 ```bash
 $ sudo systemctl enable [servicenavn].service
 $ sudo systemctl start [servicenavn].service
+```
+
+Reload service efter ændringer fx `git pull`:
+```bash
+$ sudo systemctl daemon-reload
+$ sudo systemctl restart [servicenavn].service
+```
+
+Disable servicen:
+```bash
+$ sudo systemctl stop [servicenavn].service
+$ sudo systemctl disable [servicenavn].service
+```
+
+Slet servicen:
+```bash
+$ sudo rm /etc/systemd/system/[servicenavn].service
 ```
 
 ### Brug for hjælp?
