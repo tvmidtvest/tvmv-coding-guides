@@ -1,4 +1,4 @@
-# Opret en service på en Debian
+# Opret en service på Debian
 
 Instruktioner på hvordan man opretter en service på en Debian, hvis scriptet skal holde øje med et eller andet, og derfor ikke kan køre som et cronjob. Cronjobs er i øvrigt _næsten_ altid at foretrække, da det er meget lettere at håndtere.
 
