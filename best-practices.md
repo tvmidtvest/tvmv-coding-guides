@@ -114,6 +114,10 @@ Vi skal versionere alt. Både for din egen og for andres skyld. Commit minimum t
 
 Når vi deployer fra Git (`git pull`) så sikrer vi at det er den korrekte og seneste version, som kører i produktion.
 
+## Deploy ALDRIG fredag eller lige inden fyraften
+
+Selvforklarende. Bare lad være. Med mindre du vil bruge weekenden eller natten på at fejlfinde ...
+
 ## Kør og test lokalt
 
 Du skal kunne køre og teste din kode lokalt. Brug .env og config-filer til at tilpasse til dit lokale miljø.
