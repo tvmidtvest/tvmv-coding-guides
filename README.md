@@ -1,4 +1,4 @@
-# TVMV Docs
+# TVMV Coding Guides and best practices
 
 ### Indholdsfortegnelse
 
